@@ -1,0 +1,37 @@
+make 
+
+sudo insmod main.ko 
+
+lsmod
+
+ls /dev
+
+sudo chmod 777 /dev/dof
+  
+sudo chmod 777 /dev/dof1
+  
+sudo chmod 777 /dev/dof2
+
+lsblk
+ 
+dmesg
+
+fdisk -l /dev/dof
+
+cat > /dev/dof1 
+Type something here
+
+cat > /dev/dof2 
+Type something here
+
+sudo dd if=/dev/dof of=diskinfo.txt
+
+sudo dd if=/dev/dof1 of=partition_one.txt
+
+sudo dd if=/dev/dof2 of=partition_two.txt
+
+cat diskinfo.txt
+
+cat partition_one.txt
+
+cat partition_two.txt
