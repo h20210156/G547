@@ -1,6 +1,8 @@
-Writing IIO driver for ADXL34
+Writing IIO driver for ADXL345
+
 Summmary
 
+Using IIO subsystems, I2C interfacing of ADXL345 is done. At probe function, memory allocation for IIO device is done and IIO device registration is done. At remove function, IIO device is unregistered and memory is freed. ADXL345 has 3 channels ie x,y,z axis data. The axis data is read from the register addresses 0x32, 0x34, 0x36. Register addresses are available in ADXL345 datasheet.
 
 
 Hardware Design
