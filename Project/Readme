@@ -1,3 +1,20 @@
+Writing IIO driver for ADXL34
+Summmary
+
+
+
+Hardware Design
+Schematic
+
+Setup
+
+
+
+
+
+
+
+
 Steps to get data from ADXL345 accelerometer in Raspberry Pi 
 
 1.make
