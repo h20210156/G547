@@ -6,6 +6,34 @@ Summmary
 Hardware Design
 Schematic
 
+
+
+
+![image](https://user-images.githubusercontent.com/99975058/166179958-523af4c3-549a-4c53-b326-de2ca9dadc97.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Setup
 
 
